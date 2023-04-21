@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "FoodStorageTracker"
+include ':app'
+//':amplify-android:core', ':amplify-android:aws-api', ':amplify-android:aws-datastore', ':amplify-android:aws-auth-cognito'
+
+//project(':amplify-android').projectDir = new File("/Users/stefanie/repos/aws/amplify-android")
+//project(':amplify-android:core').projectDir = new File("/Users/stefanie/repos/aws/amplify-android/aws-core")
+//project(':amplify-android:aws-api').projectDir = new File("/Users/stefanie/repos/aws/amplify-android/aws-api")
+//project(':amplify-android:aws-datastore').projectDir = new File("/Users/stefanie/repos/aws/amplify-android/aws-datastore")
+//project(':amplify-android:aws-auth-cognito').projectDir = new File("/Users/stefanie/repos/aws/amplify-android/aws-auth-cognito")
